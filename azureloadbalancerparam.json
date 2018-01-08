@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "niltempstoargeaccounti1"
+            "value": "niltempstoargeaccount12"
         },
         "adminUsername": {
             "value": "niloofar"
@@ -27,16 +27,16 @@
             "value": "2012-R2-Datacenter"
         },
         "lbName": {
-            "value": "myLB1"
+            "value": "myLB"
         },
         "nicNamePrefix": {
-            "value": "nic1"
+            "value": "nic"
         },
         "publicIPAddressName": {
-            "value": "myPublicIP1"
+            "value": "myPublicIP"
         },
         "vnetName": {
-            "value": "myVNET1"
+            "value": "myVNET"
         },
         "vmSize": {
             "value": "Standard_A1"
