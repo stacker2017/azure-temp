@@ -12,7 +12,7 @@
             "value": "Password123456"
         },
         "dnsNameforLBIP": {
-            "value": "niloofarlb4"
+            "value": "niloofarlb5"
         },
         "vmNamePrefix": {
             "value": "myVM"
@@ -33,7 +33,7 @@
             "value": "nic"
         },
         "publicIPAddressName": {
-            "value": "myPublicIPtemp"
+            "value": "myPublicIP5"
         },
         "vnetName": {
             "value": "myVNET"
