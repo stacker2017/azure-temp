@@ -185,7 +185,7 @@
                             ],
                             "loadBalancerInboundNatRules": [
                                 {
-                                    "id": "[concat(variables('lbID'),'/inboundNatRules/RDP-VM', copyindex())]"
+                                    "id": "[concat(variables('lbID'),'/inboundNatRules/SSH-VM', copyindex())]"
                                 }
                             ]
                         }
@@ -232,7 +232,7 @@
                         }
                     },
                     {
-                        "name": "RDP-VM1",
+                        "name": "SSH-VM1",
                         "properties": {
                             "frontendIPConfiguration": {
                                 "id": "[variables('frontEndIPConfigID')]"
