@@ -18,13 +18,13 @@
             "value": "myVM"
         },
         "imagePublisher": {
-            "value": "MicrosoftWindowsServer"
+            "value": "Canonical"
         },
         "imageOffer": {
-            "value": "WindowsServer"
+            "value": "UbuntuServer"
         },
         "imageSKU": {
-            "value": "2012-R2-Datacenter"
+            "value": "16.04-LTS"
         },
         "lbName": {
             "value": "myLB"
