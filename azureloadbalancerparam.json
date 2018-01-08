@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountName": {
+            "value": "niltempstoargeaccounti1"
+        },
+        "adminUsername": {
+            "value": "niloofar"
+        },
+        "adminPassword": {
+            "value": Password123456
+        },
+        "dnsNameforLBIP": {
+            "value": "niloofarlb1"
+        },
+        "vmNamePrefix": {
+            "value": "myVM"
+        },
+        "imagePublisher": {
+            "value": "MicrosoftWindowsServer"
+        },
+        "imageOffer": {
+            "value": "WindowsServer"
+        },
+        "imageSKU": {
+            "value": "2012-R2-Datacenter"
+        },
+        "lbName": {
+            "value": "myLB1"
+        },
+        "nicNamePrefix": {
+            "value": "nic1"
+        },
+        "publicIPAddressName": {
+            "value": "myPublicIP1"
+        },
+        "vnetName": {
+            "value": "myVNET1"
+        },
+        "vmSize": {
+            "value": "Standard_A1"
+        }
+    }
+}
