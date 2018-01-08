@@ -9,7 +9,7 @@
             "value": "niloofar"
         },
         "adminPassword": {
-            "value": Password123456
+            "value": "Password123456"
         },
         "dnsNameforLBIP": {
             "value": "niloofarlb1"
