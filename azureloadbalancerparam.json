@@ -12,7 +12,7 @@
             "value": "Password123456"
         },
         "dnsNameforLBIP": {
-            "value": "niloofarlb2"
+            "value": "niloofarlb3"
         },
         "vmNamePrefix": {
             "value": "myVM"
