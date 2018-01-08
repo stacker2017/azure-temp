@@ -34,21 +34,21 @@
             }
         },
         "imagePublisher": {
-            "defaultValue": "MicrosoftWindowsServer",
+            "defaultValue": "Canonical",
             "type": "String",
             "metadata": {
                 "description": "Image Publisher"
             }
         },
         "imageOffer": {
-            "defaultValue": "WindowsServer",
+            "defaultValue": "UbuntuServer",
             "type": "String",
             "metadata": {
                 "description": "Image Offer"
             }
         },
         "imageSKU": {
-            "defaultValue": "2012-R2-Datacenter",
+            "defaultValue": "16.04-LTS",
             "type": "String",
             "metadata": {
                 "description": "Image SKU"
