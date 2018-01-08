@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "niltempstoargeaccount12"
+            "value": "niltempstoargeaccounttemp"
         },
         "adminUsername": {
             "value": "niloofar"
@@ -12,7 +12,7 @@
             "value": "Password123456"
         },
         "dnsNameforLBIP": {
-            "value": "niloofarlb3"
+            "value": "niloofarlb4"
         },
         "vmNamePrefix": {
             "value": "myVM"
@@ -33,7 +33,7 @@
             "value": "nic"
         },
         "publicIPAddressName": {
-            "value": "myPublicIP"
+            "value": "myPublicIPtemp"
         },
         "vnetName": {
             "value": "myVNET"
