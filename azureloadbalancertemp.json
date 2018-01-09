@@ -165,6 +165,22 @@
             }
         },
         {
+            "type": "Microsoft.Network/publicIPAddresses",
+            "name": "[concatparameters('publicIPAddressName'), copyindex())],
+            "apiVersion": "2015-05-01-preview",
+            "location": "[resourceGroup().location]",
+            "copy": {
+                "name": "ipLoop",
+                "count": "[variables('numberOfInstances')]"
+            },
+            "properties": {
+                "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
+                "dnsSettings": {
+                    "domainNameLabel": "[]"
+                }
+            }
+        },
+        {
             "type": "Microsoft.Network/virtualNetworks",
             "name": "[parameters('vnetName')]",
             "apiVersion": "2015-05-01-preview",
