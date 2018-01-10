@@ -172,7 +172,7 @@
             "properties": {
                 "publicIPAllocationMethod": "[variables('publicIPAddressType')]"
                 }
-            }
+            
         },
         {
             "type": "Microsoft.Network/virtualNetworks",
