@@ -218,7 +218,7 @@
                         "properties": {
                             "privateIPAllocationMethod": "Dynamic",
                             "publicIPAddress": {
-                              "id": "[resourceId('Microsoft.Network/publicIPAddresses',concat('vmpublcip',copyindex()))]"
+                              "id": "[resourceId('Microsoft.Network/publicIPAddresses/vmpublcip', copyindex())]"
                              },
                             "subnet": {
                                 "id": "[variables('subnetRef')]"
