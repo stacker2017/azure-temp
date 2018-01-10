@@ -165,6 +165,16 @@
             }
         },
         {
+            "type": "Microsoft.Network/publicIPAddresses",
+            "name": "[concat('vmpublicip', copyindex())]",
+            "apiVersion": "2015-05-01-preview",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "publicIPAllocationMethod": "[variables('publicIPAddressType')]"
+                }
+            }
+        },
+        {
             "type": "Microsoft.Network/virtualNetworks",
             "name": "[parameters('vnetName')]",
             "apiVersion": "2015-05-01-preview",
